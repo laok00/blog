@@ -6,16 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <title>test-20160519 | allan blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="Caching your GitHub password in GitTurn on the credential helper so that Git will save your password in memory for some time. By default, Git will cache your password for 15 minutes.    git config –gl">
+  <meta name="description" content="Caching your GitHub password in GitTurn on the credential helper so that Git will save your password in memory for some time. By default, Git will cache your password for 15 minutes.
+git config --glob">
 <meta property="og:type" content="article">
 <meta property="og:title" content="test-20160519">
 <meta property="og:url" content="http://yoursite.com/2016/05/20/test-20160519/index.html">
 <meta property="og:site_name" content="allan blog">
-<meta property="og:description" content="Caching your GitHub password in GitTurn on the credential helper so that Git will save your password in memory for some time. By default, Git will cache your password for 15 minutes.    git config –gl">
-<meta property="og:updated_time" content="2016-05-19T16:30:45.412Z">
+<meta property="og:description" content="Caching your GitHub password in GitTurn on the credential helper so that Git will save your password in memory for some time. By default, Git will cache your password for 15 minutes.
+git config --glob">
+<meta property="og:updated_time" content="2016-05-19T16:33:32.348Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="test-20160519">
-<meta name="twitter:description" content="Caching your GitHub password in GitTurn on the credential helper so that Git will save your password in memory for some time. By default, Git will cache your password for 15 minutes.    git config –gl">
+<meta name="twitter:description" content="Caching your GitHub password in GitTurn on the credential helper so that Git will save your password in memory for some time. By default, Git will cache your password for 15 minutes.
+git config --glob">
   
     <link rel="alternative" href="/atom.xml" title="allan blog" type="application/atom+xml">
   
@@ -230,8 +233,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Caching-your-GitHub-password-in-Git"><a href="#Caching-your-GitHub-password-in-Git" class="headerlink" title="Caching your GitHub password in Git"></a>Caching your GitHub password in Git</h2><p>Turn on the credential helper so that Git will save your password in memory for some time. By default, Git will cache your password for 15 minutes.<br>    git config –global credential.helper cache</p>
-<pre><code># Set git to use the credential memory cache default 15 minutes
+        <h2 id="Caching-your-GitHub-password-in-Git"><a href="#Caching-your-GitHub-password-in-Git" class="headerlink" title="Caching your GitHub password in Git"></a>Caching your GitHub password in Git</h2><p>Turn on the credential helper so that Git will save your password in memory for some time. By default, Git will cache your password for 15 minutes.</p>
+<pre><code>git config --global credential.helper cache
+# Set git to use the credential memory cache default 15 minutes
 git config --global credential.helper &apos;cache --timeout=3600&apos;
 # Set the cache to timeout after 1 hour (setting is in seconds)
 </code></pre>

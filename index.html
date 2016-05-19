@@ -224,8 +224,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h2 id="Caching-your-GitHub-password-in-Git"><a href="#Caching-your-GitHub-password-in-Git" class="headerlink" title="Caching your GitHub password in Git"></a>Caching your GitHub password in Git</h2><p>Turn on the credential helper so that Git will save your password in memory for some time. By default, Git will cache your password for 15 minutes.<br>    git config –global credential.helper cache</p>
-<pre><code># Set git to use the credential memory cache default 15 minutes
+        <h2 id="Caching-your-GitHub-password-in-Git"><a href="#Caching-your-GitHub-password-in-Git" class="headerlink" title="Caching your GitHub password in Git"></a>Caching your GitHub password in Git</h2><p>Turn on the credential helper so that Git will save your password in memory for some time. By default, Git will cache your password for 15 minutes.</p>
+<pre><code>git config --global credential.helper cache
+# Set git to use the credential memory cache default 15 minutes
 git config --global credential.helper &apos;cache --timeout=3600&apos;
 # Set the cache to timeout after 1 hour (setting is in seconds)
 </code></pre>
